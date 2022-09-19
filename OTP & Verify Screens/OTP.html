@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>OTP</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+
+	<!-- ---------------------Bootstrap link--------------------------- -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<!-- ---------------------Jquery link--------------------------- -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	
+    <link rel="stylesheet" href="library/build/css/intlTelInput.css">
+    <!-- <link rel="stylesheet" href="library/build/css/demo.css"> -->
+
+</head>
+<body>
+
+	<!-- --------------Registration 2nd Screen--------------------- -->
+	<div  class="registration2">
+		<div class="registration2_inner">
+			<!-- ---------------Top Heading---------------- -->
+			<div class="row top">
+				<div class="col-2 col-sm-2 col1">
+					<a href="#" class="back"><img src="arrow-left.svg" alt="arrow"></a>
+				</div>
+			</div>
+
+			<div class="center">
+				<div>
+					<!-- <div class="logo">
+						<img src="sms.svg">
+					</div> -->
+					<p class="name">Hi!<span> Sohail</span></p>
+					<p class="subheading">An SMS with a payment Link has been sent to this number.</p>
+				</div>
+			</div>
+
+			<div class="otp">
+				<p>Enter OTP</p>
+				<form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
+					<input type="text" id="digit-1" name="digit-1" data-next="digit-2" maxlength="1" />
+					<input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" maxlength="1"/>
+					<input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" maxlength="1"/>
+					<input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" maxlength="1"/>
+				</form>
+			</div>
+			<p class="otp_msg">Having trouble? Request a new OTP in </p>
+			<p class="resend_otp">Resend Code</p>
+		</div>
+		<div class="keyboard">
+				<div class="row">
+					<div class="col-4">
+						<p>1</p>
+					</div>
+					<div class="col-4">
+						<p>2</p>
+					</div>
+					<div class="col-4">
+						<p>3</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<p>4</p>
+					</div>
+					<div class="col-4">
+						<p>5</p>
+					</div>
+					<div class="col-4">
+						<p>6</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<p>7</p>
+					</div>
+					<div class="col-4">
+						<p>8</p>
+					</div>
+					<div class="col-4">
+						<p>9</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<img src="Cross.svg" width="45px" height="auto">
+					</div>
+					<div class="col-4">
+						<p>0</p>
+					</div>
+					<div class="col-4">
+						<img src="Enter.svg" width="45px" height="auto">
+					</div>
+				</div>
+				
+			</div>
+	</div>
+
+	<!-- ----------------Bottom Navigation ------------------- -->
+
+		<div class="btm_nav">
+			<div class="row">
+				<div class="col col-3">
+					<a href="#">
+						<img src="Home.svg">
+						<p>Start</p>
+					</a>
+				</div>
+				<div class="col col-2  active">
+					<a href="#">
+						<img src="active-cart.svg">
+						<p>Cart</p>
+					</a>
+				</div>
+				<div class="col col-2 nextf">
+						<img src="Arrow-right.svg" class="center_icon img-responsive" width="45px" height="45px">
+						<p>Next</p> 
+				</div>
+				<div class="col col-2">
+					<a href="#">
+						<img src="Notification.svg">
+						<p>Notification</p>
+					</a>
+				</div>
+				<div class="col col-3">
+					<a href="#">
+						<img src="account.svg">
+						<p>Account</p>
+					</a>
+				</div> 
+			</div> 
+		</div>
+		<!-- ---------------Bottom Navigation End----------------- -->
+</body> 
+
+<script src="library/build/js/intlTelInput.js"> </script>
+
+ <script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      utilsScript: "library/build/js/utils.js",
+    });
+  </script>
+</html>

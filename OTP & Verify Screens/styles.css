@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    background-color: white !important;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins' !important;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.registration1{ 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px;
+    background-color: #000;
+    min-height: 100vh;
+} 
+.top .col1
+{
+    text-align: left;
+    margin-top: 2px;
+}
+.top .col2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 27px;
+}
+.register-logo{
+    text-align: center;
+}
+.register-logo img{
+    margin: 30px auto 20px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+.subheading{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.input_section{
+    background-color: #141416;
+    border-radius: 10px;
+    margin: 15px 0px 0px;
+    padding: 10px;
+}
+.input_section .col{
+    padding: 0px;
+}
+.input_section .name{
+    color: #F5F5F7;
+    font-size: 14px;
+    margin: 3px 0px 0px;
+}
+.input_section input{
+    background-color: transparent;
+    padding: 0px;
+    border-bottom: 1px solid #424245 !important;
+    border: none;
+    width: 100%;
+    padding: 5px 0px;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #F5F5F7 !important;
+}
+.input_section input:focus{
+    background-color: transparent;
+    padding: 5px 0px;
+    border-bottom: 1px solid #F5F5F7 !important;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none important;
+    box-shadow: none;
+    outline: none;
+}
+/*---------Bottom Navigation-----------*/
+.btm_nav{
+    position:fixed;
+    bottom: 0;
+    max-width: 375px;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+    margin: 0px;
+    padding: 20px 0px 0px;
+}
+.btm_nav .row{
+    background-color: #1D1D1F;
+    padding-top: 10px;
+}
+.btm_nav p{
+    font-family: 'Poppins';
+    margin-top: 8px;
+    color: #F5F5F7F0;
+    font-size: 10px;
+    font-weight: 400;
+}
+.btm_nav .active p{
+    color: #FFF600;
+}
+.btm_nav .col{
+    text-align: center !important;
+    padding: 0px;
+}
+.btm_nav .col .center_icon{
+    background-color: #FFF600;
+    padding: 11px;
+    border-radius: 30px;
+    margin-top: -25px; 
+}
+.nextf{
+    cursor: pointer;
+}
+/*--------- 2nd Screen----------*/
+.registration2{
+    padding-bottom: 120px;
+    background-color: black;
+    min-height: 100vh;
+}
+.registration2_inner{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+}
+.registration2_inner .center{
+    margin: 30px 0px 0px;
+}
+
+.registration2_inner .center .name{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    color: #fff;
+ 
+} 
+/*--------------OTP---------------------------*/
+.otp{
+    background-color: #141416;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 30px 0px;
+}
+.otp p{
+    font-size: 15px;
+    font-weight: 400;00;
+    color: #F5F5F7;
+} 
+ .digit-group  input {
+        width: 40px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        line-height: 50px;
+        text-align: center; 
+        color: #fff;
+        background-color: #1D1D1F;
+        margin: 0 2px;
+    } 
+ .digit-group  input:focus{
+    border: 1px solid black;
+ }
+ .otp_msg{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F5F7;
+    line-height: 21px;
+    margin: 0px;
+ }
+ .resend_otp {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2BAE66;
+    margin: 10px 0px 0px 0px;
+    line-height: 24px;
+ }
+ /*-------------Keyboard---------------*/
+ .keyboard{
+    background-color: #141416;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
+ }
+ .keyboard .row .col-4{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px 0px;
+ }
+ .keyboard .row p{
+    font-size: 35px;
+    font-weight: 600;
+    color: #F5F5F7;
+    margin: 0px;
+ }
