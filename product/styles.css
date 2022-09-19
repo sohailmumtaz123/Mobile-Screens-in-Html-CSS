@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
+html{
+    background-color: #A2A2A6;
+}
+body {
+    background-color: #000;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+    font-family: "Poppins" !important;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/*-----------Product Page------------*/
+.Product{
+   min-height: 100vh;
+   margin: 0px;
+   padding: 0px;
+}
+.Product .top{
+    margin: 0px;
+    padding: 56px 20px 24px 20px;
+}
+.top .col1
+{
+    text-align: left;
+    margin-top: 2px;
+}
+.top .col2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 27px;
+    margin: 0px;
+}
+.main{
+    background-color: #fff;
+    padding: 20px 20px 130px 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+.main .Image{
+    width: 100%;
+    height: 195px;
+    background-image: url(image001.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #ffff;
+}
+.main .under_img{
+    margin: 0px;
+}
+.main .under_img .col{
+    padding: 15px 0px;
+}
+.main .under_img p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.main .under_img img{
+    float: right;
+    margin-top: 20px;
+}
+/*-----------Check Box---------------*/
+.main .checkbox{
+    margin: 0px 0px 8px 0px;
+    padding: 0px; 
+}
+.main input[type=checkbox]{
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 2px solid #333333;
+    height: 25px;
+    width: 25px;
+    padding: 0px;
+}
+.main input[type=checkbox]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    content: "\f00c";
+    font-size: 15px;
+    padding-left: 2px;
+    margin: auto;
+    color: #fff;
+    /*display: none;*/
+}
+.main input[type=checkbox]:checked{
+    background-color: #04AF53 !important;
+    border-color: #04AF53;
+}
+
+.main .checkbox label{
+    padding-right: 20px;
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 32px;
+}
+/*----------CheckBox End--------------*/
+.main hr{
+    border-top: 1px solid #D2D2D7;
+    padding: 0px;
+    margin: 5px 0px;
+}
+.main .item{
+    margin: 0px;
+    padding: 10px 0px;
+}
+.main .item .col-6,.main .item .col-3{
+    padding: 0px;
+    margin: 0px;
+}
+.main .col1 p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+    padding: 0px;
+    margin: 2px 0px 0px 0px;
+}
+.main .col2 p{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+    margin: 2px 0px 0px 0px;
+}
+.main .col3{
+    text-align: right;
+}
+/*-------------End Price row -------------*/
+.main .price {
+    margin-top: 16px;
+}
+.main .price p.plus_minus{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    background-color: #F9F9F9;
+    display: inline-block;
+    padding: 6px 0px;
+    margin-top: 0px;
+}
+.main .price .plus_minus .center{
+    margin: 0px 14px 0px 16px ;
+}
+.main .price .plus_minus .minus{
+    margin: 0px;
+    padding: 6px 10px 6px 14px;
+    color: #000;
+    background-color: #E2E2E2;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.main .price .plus_minus .plus{
+    margin: 0px;
+    padding: 6px 12px;
+    color: #000;
+    background-color: #E2E2E2;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.main .price .col2 p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 4px;
+    text-align: right;
+}
+/*---------Bottom Navigation-----------*/
+.btm_nav{
+    position:fixed;
+    bottom: 0;
+    max-width: 375px;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+    margin: 0px;
+    padding: 20px 0px 0px;
+}
+.btm_nav .row{
+    background-color: #1D1D1F;
+    padding-top: 10px;
+}
+.btm_nav p{
+    margin-top: 8px;
+    color: #F5F5F7F0;
+    font-size: 10px;
+    font-weight: 400;
+}
+.btm_nav .active p{
+    color: #FFF600;
+}
+.btm_nav .col{
+    text-align: center !important;
+    padding: 0px;
+}
+.btm_nav .col .center_icon{
+    background-color: #FFF600;
+    padding: 11px;
+    border-radius: 30px;
+    margin-top: -25px; 
+}
