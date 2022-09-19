@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    background-color: white !important;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins' !important;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.delivery{ 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px 100px 20px;
+    background-color: #000;
+    min-height: 100vh;
+} 
+.top .col1
+{
+    text-align: left;
+    margin-top: 2px;
+}
+.top .col2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 27px;
+} 
+.subheading{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.input_section{
+    background-color: #141416;
+    border-radius: 10px;
+    margin: 15px 0px 0px;
+    padding: 10px;
+}
+.input_section .col{
+    padding: 0px;
+}
+.input_section .name{
+    color: #F5F5F7;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 3px 0px 0px;
+}
+.input_section input{
+    background-color: transparent;
+    padding: 0px;
+    border-bottom: 1px solid #424245 !important;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #F5F5F7 !important;
+}
+.input_section input:focus{
+    background-color: transparent;
+    padding: 0px;
+    border-bottom: 1px solid #F5F5F7 !important;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none important;
+    box-shadow: none;
+}
+/*---------Bottom Navigation-----------*/
+.btm_nav{
+    position:fixed;
+    bottom: 0;
+    max-width: 375px;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+    margin: 0px;
+    padding: 20px 0px 0px;
+}
+.btm_nav .row{
+    background-color: #1D1D1F;
+    padding-top: 10px;
+}
+.btm_nav p{
+    font-family: 'Poppins';
+    margin-top: 8px;
+    color: #F5F5F7F0;
+    font-size: 10px;
+    font-weight: 400;
+}
+.btm_nav .active p{
+    color: #FFF600;
+}
+.btm_nav .col{
+    text-align: center !important;
+    padding: 0px;
+}
+.btm_nav .col .center_icon{
+    background-color: #FFF600;
+    padding: 11px;
+    border-radius: 30px;
+    margin-top: -25px; 
+}
+.nextf{
+    cursor: pointer;
+} 
