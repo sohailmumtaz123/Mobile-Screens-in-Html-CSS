@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head> 
+<body>
+	<div class="home">
+
+		<div class="row top">
+			<div class="col-2 col-sm-2 col1">
+				<a href="#"><img src="arrow-left.svg" alt="arrow"></a>
+			</div>
+			<div class="col-8 col-sm-8 col2">
+				<p> Menu </p>
+			</div>
+			<!-- <div class="col-2 col-sm-2 col3"></div> -->
+		</div>
+
+		<!-- -------------------Tabs--------------------------- -->
+		<div class="warpper outer">
+		  <input class="radio" id="one" name="group" type="radio" checked>
+		  <input class="radio" id="two" name="group" type="radio">
+		  <input class="radio" id="three" name="group" type="radio">
+
+		  <div class="tabs">
+			  <label class="tab" id="one-tab" for="one">Main dish</label>
+			  <label class="tab" id="two-tab" for="two">Drinks</label>
+			  <label class="tab" id="three-tab" for="three">Extras</label>
+		  </div>
+
+		  <div class="panels">
+			  <div class="panel" id="one-panel">
+			  	<div class="filters">
+			  		<ul>
+			  			<li class="active"><a href="#">Chicken</a><hr></li>
+			  			<li class="notActive"><a href="#">Tikka</a><hr></li>
+			  			<li class="notActive"><a href="#">Kabab</a><hr></li>
+			  			<li class="notActive"><a href="#">Pasta</a><hr></li>
+			  			<li class="notActive"><a href="#">Burger</a><hr></li>
+			  			<li class="notActive"><a href="#">Burger</a><hr></li>
+			  			<li class="notActive"><a href="#">Burger</a><hr></li>
+			  		</ul>
+			  		<hr>
+			  	</div>
+			  		<!-- -----------Item#1---------- -->
+			  		<p class="item-heading">Chicken</p>
+						<div>
+							<div class="item">
+								<img src="share.svg">
+							</div>
+							<div class="item_text">
+								
+								<div class="row">
+									<div class="col col-sm-6">
+										<p class="p1">Chilli Chicken</p>
+										<p class="p2">€10.50</p>
+									</div>
+									<div class="col col-sm-6 right">
+										<!-- <img src="cart.svg" class="buy"> -->
+										<p> 3 </p>
+										<p class="minus"> - </p>
+									</div>
+								</div>
+							</div> 
+						</div>
+						<!-- -----------Item#2---------- -->
+						<div>
+							<div class="item">
+								<img src="share.svg">
+							</div>
+							<div class="item_text">
+								<div class="row">
+									<div class="col col-sm-6">
+										<p class="p1">Grill Chicken</p>
+										<p class="p2">€10.50</p>
+									</div>
+									<div class="col col-sm-6">
+										<img src="Buy.svg" class="buy">
+									</div>
+								</div>
+							</div> 
+						</div>
+			  
+			</div>
+				<!-- ----------------2nd Tab ------------- -->
+				<div class="panel" id="two-panel">
+					<div class="filters">
+			  		<ul>
+			  			<li class="active"><a href="#">Chicken</a><hr></li>
+			  			<li class="notActive"><a href="#">Tikka</a><hr></li>
+			  			<li class="notActive"><a href="#">Kabab</a><hr></li>
+			  			<li class="notActive"><a href="#">Pasta</a><hr></li>
+			  			<li class="notActive"><a href="#">Burger</a><hr></li>
+			  			<li class="notActive"><a href="#">Burger</a><hr></li>
+			  			<li class="notActive"><a href="#">Burger</a><hr></li>
+			  		</ul>
+			  		<hr>
+			  	</div>
+			    
+			  </div>
+			  <!-- ----------------3rd Tab ------------- -->
+			  <div class="panel" id="three-panel">
+			    
+			  </div>
+			  </div>
+		  </div>
+	</div>
+
+	<!-- ----------------Bottom Navigation ------------------- -->
+
+		<div class="btm_nav">
+			<div class="row">
+				<div class="col col-3 active">
+					<a href="#">
+						<img src="activeHome.svg">
+						<p>Home</p>
+					</a>
+				</div>
+				<div class="col col-2">
+					<a href="#">
+						<img src="Buy.svg">
+						<p>Cart</p>
+					</a>
+				</div>
+				<div class="col col-2">
+					<a href="#">
+						<img src="Scan.svg" class="center_icon img-responsive" width="45px" height="45px">
+						<p>Scan</p>
+					</a>
+				</div>
+				<div class="col col-2">
+					<a href="#">
+						<img src="Notification.svg">
+						<p>Notification</p>
+					</a>
+				</div>
+				<div class="col col-3">
+					<a href="#">
+						<img src="account.svg">
+						<p>Account</p>
+					</a>
+				</div> 
+			</div> 
+		</div>
+		<!-- ---------------Bottom Navigation End----------------- -->
+
+</body>
+</html>
