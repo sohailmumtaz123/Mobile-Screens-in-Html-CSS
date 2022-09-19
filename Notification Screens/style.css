@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html{
+    background-color: white;
+}
+body {
+    background-color: black !important; 
+    margin: auto;
+    font-family: 'Poppins' !important;
+    max-width: 375px;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.row,.col{
+    margin: 0px;
+    padding: 0px;
+}
+.notification_main{
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 90vh;
+    padding: 30px 20px 100px 20px;
+}
+.top .col1{
+    text-align: left;
+    margin-top: 2px;
+}
+.top .heading p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 27px;
+    } 
+/*---------Saved Cards Option-------------------------------*/
+.current_order{ 
+    margin: 16px 0px 0px 0px;
+} 
+.current_order .order{
+    background-color: #141416;
+    border-radius: 8px;
+    margin-left: 0px;
+    padding: 12px;
+} 
+.current_order .order .order_img{
+    border: 1px solid #DADADA;
+    background-color: #000;
+    border-radius: 10px;
+}
+.Card_option .name{
+    font-size: 15;
+    font-weight: 500;
+    color: #F5F5F7;
+    margin: 0px;
+}
+.Card_option .time{
+    font-size: 11;
+    font-weight: 400;
+    color: #A1A1A6;
+    margin: 0px;
+    text-align: right;
+}
+.Card_option .detail{
+    font-size: 13;
+    font-weight: 400;
+    color: #A1A1A6;
+    margin: 0px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+/*---------Current order Stripe end here---------------*/ 
+.order_id{
+    background-color: #141416;
+    border-radius: 8px;
+    margin-left: 0px;
+    padding: 12px;
+    margin-top: 24px;
+}
+.order_id .left1 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #F5F5F7;
+    margin: 0px;
+    line-height: 24px;
+}
+.order_id .right1 p{
+    font-size: 10px;
+    font-weight: 400;
+    color: #A1A1A6;
+    margin: 6px 0px 0px 0px;
+    text-align: right;
+    line-height: 12px;
+}
+.order_id .left2 p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #F5F5F7;
+    margin: 0px;
+    line-height: 21px;
+}
+.order_id .right2 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #F5F5F7;
+    margin: 4px 0px 0px 0px;
+    line-height: 18px;
+    text-align: right;
+}
+/*-------------Checkbox-------------------*/
+.checkboxes{
+    margin-top: 40px;
+} 
+.checkbox{
+    display: flex;
+    margin-top: 10px;
+}
+.checkbox input[type=checkbox]{
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #86868B;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox input[type=checkbox]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    content: "\f00c";
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    color: #fff; 
+    display: none;
+}
+.checkbox input[type=checkbox]:checked:after{
+    display: block;
+}
+.checkbox input[type=checkbox]:checked{
+    background-color: #04AF53 !important;
+    border-color: #04AF53;
+}
+.checkbox p.checked{
+    font-size: 15px;
+    font-weight: 400;
+    color: #F5F5F7;
+    line-height: 22px;
+    margin: 0px 0px 0px 12px;
+}
+.checkbox p{
+    color: #86868B;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px 0px 0px 12px;
+}
+/*--------------------Ordered Items -------------*/
+.order_summary .heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #F5F5F7;
+    text-align: left;
+    margin: 45px 0px 0px 0px;
+}
+.order_item{
+    margin: 8px 0px;
+}
+.order_item .left{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+}
+.order_item .logo{
+    margin-right: 13px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+}
+.order_item .name{
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #F5F5F7;
+    text-align: left;
+} 
+.order_item .price_col{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+.order_item .price{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #F5F5F7;
+    margin: 0px 0px 6px 0px;
+}
+/*---------------------Item end here -----------------*/
+.order_details .total{
+    padding-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.total .left{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #F5F5F7;
+    margin: 0px 50px 0px 0px;
+}
+.total .right{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 0px;
+    color: #F5F5F7;
+}
+hr{
+    border-top: 1px solid #3B3B3D;
+    margin: 10px 0px;
+}
+/*-----------------Payment Types-----------------*/
+.payment_option .heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #F5F5F7;
+    text-align: left;
+    margin-top: 40px;
+}
+.option{
+    background-color: #1D1D1F;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    cursor:pointer;
+}       
+.option .left{
+    display: flex;
+    padding: 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.option .left p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F5F7; 
+    margin: 0px 0px 0px 15px;
+    display: flex;
+    vertical-align: middle;
+}
+.option .right{           
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*-----------Thank you----------------*/
+.thank_you{
+    margin: 20px 0px 12px 0px;
+    display: flex;
+    align-items: center;
+}
+.thank_you img{
+    margin-right: 15px;
+}
+.thank_you .heading{
+    font-size: 16px;
+    font-weight: 600;
+    color: #F5F5F7;
+    margin: 0px;
+}
+.thank_you .id{
+    font-size: 14px;
+    font-weight: 400;
+    color: #A1A1A6;
+    margin: 0px;
+}
+/*-------------------*/
+.user{
+    display: flex;
+    align-items: center;
+}
+.user img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #B1B4C5;
+}
+.user .name{
+    font-size: 14px;
+    font-weight: 400;
+    color: #A1A1A6;
+    margin: 0px 0px 0px 12px;
+}
+/*------------------------------*/
+.rating{
+    text-align: center;
+}
+.rating p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #F5F5F7;
+    margin: 16px 0px 8px 0px;
+    text-align: center;
+}
+/*------------------Star----------------*/
+.stars{ 
+    display: flex;
+    justify-content: center;
+}
+.stars input[type=checkbox]{
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin: 3px;
+}
+.stars input[type=checkbox]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 100;
+    content: "\f005";
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    color: #FFF600;
+}
+.stars input[type=checkbox]:checked:after{
+    font-weight: 900;
+    content: "\f005";
+} 
+/*------------Comment--------------*/
+.comment{
+    margin-top: 16px;
+}
+.comment .heading{
+    font-size: 14;
+    font-weight: 400;
+    color: #F5F5F7;
+    text-align: left;
+    margin: 8px 0px;
+}
+.comment textarea{
+    border:  1px solid #9F9FA1;
+    border-radius: 10px;
+    font-size: 12px;
+    font-size: 400;
+    color: #9F9FA1;
+    background-color: transparent;   
+}
+.comment textarea:focus{
+    background-color: transparent;
+    outline: none !important;
+}
+/*---------Bottom Navigation-----------*/
+.btm_nav{
+    position:fixed;
+    bottom: 0;
+    max-width: 375px;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+    margin: 0px;
+    padding: 20px 0px 0px;
+}
+.btm_nav .row{
+    background-color: #1D1D1F;
+    padding-top: 10px;
+}
+.btm_nav p{
+    margin-top: 8px;
+    color: #F5F5F7F0;
+    font-size: 10px;
+    font-weight: 400;
+}
+.btm_nav .active p{
+    color: #FFF600;
+}
+.btm_nav .col{
+    text-align: center !important;
+    padding: 0px;
+}
+.btm_nav .col .center_icon{
+    background-color: #FFF600;
+    padding: 11px;
+    border-radius: 30px;
+    margin-top: -25px; 
+}

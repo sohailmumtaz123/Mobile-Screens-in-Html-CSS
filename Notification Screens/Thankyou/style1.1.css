@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html{
+    background-color: white;
+}
+body {
+    background-color: black !important; 
+    margin: auto;
+    font-family: 'Poppins' !important;
+    max-width: 375px;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.row,.col{
+    margin: 0px;
+    padding: 0px;
+}
+.notification_main{
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 90vh;
+    padding: 30px 20px 20px 20px;
+}
+.top .col1{
+    text-align: left;
+    margin-top: 2px;
+}
+.top .heading p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 27px;
+}
+/*-----------Thank you----------------*/
+.thank_you{
+    margin: 10px 0px 12px 0px;
+    display: flex;
+    align-items: center;
+}
+.thank_you img{
+    margin-right: 15px;
+}
+.thank_you .heading{
+    font-size: 16px;
+    font-weight: 600;
+    color: #F5F5F7;
+    margin: 0px;
+}
+.thank_you .id{
+    font-size: 14px;
+    font-weight: 400;
+    color: #A1A1A6;
+    margin: 0px;
+}
+/*--------------------Ordered Items -------------*/
+.order_summary .heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #F5F5F7;
+    text-align: left;
+    margin: 30px 0px 0px 0px;
+}
+.order_item{
+    margin: 8px 0px;
+}
+.order_item .left{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+}
+.order_item .logo{
+    margin-right: 13px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+}
+.order_item .name{
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #F5F5F7;
+    text-align: left;
+} 
+.order_item .price_col{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+.order_item .price{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #F5F5F7;
+    margin: 0px 0px 6px 0px;
+}
+/*---------------------Item end here -----------------*/
+.order_details .total{
+    padding-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.total .left{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #F5F5F7;
+    margin: 0px 50px 0px 0px;
+}
+.total .right{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 0px;
+    color: #F5F5F7;
+}
+hr{
+    border-top: 1px solid #3B3B3D;
+    margin: 10px 0px;
+}
+/*----------------input section--------------- */
+form .heading{
+    font-size: 14px;
+    font-weight: 500;
+    color: #F5F5F7;
+    margin: 50px 0px 0px 0px;
+}
+.input_section{
+    background-color: #141416;
+    border-radius: 10px;
+    margin: 10px 0px 0px;
+    padding: 10px;
+}
+.input_section .col{
+    padding: 0px;
+}
+.input_section .name{
+    color: #F5F5F7;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 3px 0px 0px;
+}
+.input_section .send_mail{
+    display: flex;
+    border-bottom: 2px solid #424245;
+}
+.input_section .send_mail:focus-within{
+    border-bottom: 1px solid #F5F5F7 !important;
+}
+.input_section input[type=submit]{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    background-color: #FFF600;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-bottom: 6px;
+}
+.input_section input[type=email]{
+    background-color: transparent;
+    padding: 0px;
+    /*border-bottom: 1px solid #424245 !important;*/
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #F5F5F7 !important;
+}
+.input_section input[type=email]:focus{
+    background-color: transparent;
+    padding: 0px; 
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none important;
+    box-shadow: none;
+} 
+
+.back_menu{
+    max-width: 335px;
+    width: 100%;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #FFF600;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 100px 0px 0px  0px;
+    border: none;
+}
+.back_menu:focus{
+    outline: none;
+}

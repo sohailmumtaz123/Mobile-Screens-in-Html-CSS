@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Notifications</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+
+	<!-- ---------------------Bootstrap link--------------------------- -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- -------------Font Awsome CDN Link--------------- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- ---------------------Jquery link--------------------------- -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style1.1.css"> 
+
+</head>
+<body>
+	<div  class="notification_main">
+		<div class="row top">
+			<div class="col col-2 col-sm-2">
+				<a href="#"><img src="arrow-left.svg" alt="arrow"></a>
+			</div>
+			<div class="col col-8 col-sm-8 heading">
+				<p> Notifications</p>
+			</div>
+			<div class="col col-2 col-sm-2 col3">
+				<!-- <a href="#"><img src="Scan.svg"></a> -->
+			</div>
+		</div>
+
+		<!-- -------------Thank you----------- -->
+		<div class="thank_you">
+			<img src="thankyou2.svg">
+			<div>
+				<p class="heading">Thanks for your order</p>
+				<p class="id">Order id <span style="color:#FFF600;">#2774</span></p>
+			</div>
+		</div> 
+
+		<!-- ------------------Your Order - Ordered Items--------------->
+		<div class="order_summary">
+			<p class="heading">This is Your order</p>
+			<!--------------- Order detials after click ---------------------->
+			<div class="order_details"> 
+				<!-- -----1st Item-------->
+				<div class="row order_item">
+					<div class="col col-10 left">
+						<div class="logo">
+							<img src="burger.png" width="auto" height="auto">
+						</div>
+						<p  class="name">Burger with Fries With Ketchup + Barbeque Sause</p>
+					</div>
+					<div class="col col-2 price_col">
+						<p class="price">€10.50</p>
+					</div>
+				</div>
+				<!-- -----1st Item-------->
+				<div class="row order_item">
+					<div class="col col-10 left">
+						<div class="logo">
+							<img src="burger.png" width="auto" height="auto">
+						</div>
+						<p  class="name">Burger with Fries With Ketchup + Barbeque Sause</p>
+					</div>
+					<div class="col col-2 price_col">
+						<p class="price">€10.50</p>
+					</div>
+				</div>
+
+				<hr>
+				<div class="total">
+					<p class="left">Total</p>
+					<p class="right">€17.00</p>
+				</div>
+			</div>  
+		</div>
+
+		<!-- ----------Form- Enter Name --------------------- -->
+		<form>
+			<p class="heading">Need an reciept?</p>
+			<div class="input_section row">
+				<div class="col col-1">
+					<img src="bx-mail-send.svg" width="20px" height="auto">
+				</div>
+				<div class="col col-11 ">
+					<p class="name">Email</p>
+					<div class="send_mail" tabindex="1">
+						<input class="form-control" type="email" name="" placeholder="happyclient@gmail.co">
+						<input type="submit" name="" value="Send">
+					</div>
+					
+				</div>
+			</div>
+
+		</form> 
+
+		<button class="back_menu">Back to menu</button>
+
+	</div>
+
+</body>
+</html>
