@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Payment1</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+
+	<!-- ---------------------Bootstrap link--------------------------- -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- -------------Font Awsome CDN Link--------------- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- ---------------------Jquery link--------------------------- -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- <script type="text/javascript">
+				$(document).ready(function(){
+
+					$(".order_details").hide();
+
+					$(".see-details").click(function(){
+					    $(".order_summary").hide();
+					    $(".order_details").show();
+					});
+
+					$(".cross").click(function(){
+						$(".order_details").hide();
+					    $(".order_summary").show();
+					    });
+				});
+	</script> -->
+
+</head>
+<body>
+	<div  class="payment_page1">
+		<div class="row top">
+			<div class="col-2 col-sm-2 col1">
+				<a href="#"><img src="arrow-left.svg" alt="arrow"></a>
+			</div>
+			<div class="col-8 col-sm-8 col2">
+				<p> Order </p>
+			</div>
+			<div class="col-2 col-sm-2 col3">
+				<!-- <a href="#"><img src="Scan.svg"></a> -->
+			</div>
+		</div>
+
+		<!--------------- Order Summary Before Click ---------------------->
+
+		<div class="order_summary">
+			<p class="heading">Cart</p>
+		<!--------------- Order detials after click ---------------------->
+		<div class="order_details"> 
+			<!-- -----1st ordered Item--------------- -->
+			<div class="row order_item">
+				<div class="col-10 left">
+					<div class="logo">
+						<img src="burger.png" width="auto" height="auto">
+					</div>
+					<div>
+						<p  class="name">Burger with Fries</p>
+						<div class="price">
+							<p class="plus_minus">
+								<span class="minus">  - </span>
+								<span class="center"> 2 </span>
+								<span class="plus">   + </span>
+							</p>
+						</div> 
+					</div> 
+				</div>
+				<div class="col-2 price_col">
+					<img src="crossCircle.svg">
+					<p class="price">€10.50</p>
+				</div>
+			</div>
+			<!-- -----2nd Item--------------- -->
+			<div class="row order_item">
+				<div class="col-10 left">
+					<div class="logo">
+						<img src="glass.png" width="auto" height="auto">
+					</div>
+					<div>
+						<p  class="name">Burger with Fries</p>
+						<div class="price">
+							<p class="plus_minus">
+								<span class="minus">  - </span>
+								<span class="center"> 2 </span>
+								<span class="plus">   + </span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 price_col">
+					<img src="crossCircle.svg">
+					<p class="price">€10.50</p>
+				</div>
+			</div>
+
+			<hr>
+			<div class="total">
+				<p class="left">Total</p>
+				<p class="right">€17.00</p></div>
+			</div>  
+		</div>
+		<!-- ------------------Order Options Checkbox------------- --> 
+		<div class="order_option">
+			<p class="heading">Order options</p>
+			<div class="row order_checkbox">
+				<div class="col-4 col">
+					<input type="checkbox" name="check1" value="Dine In" checked="true">
+					<p>Dine IN</p>
+				</div>
+				<div class="col-4 col">
+					<input type="checkbox" name="check1" value="Takeaway">
+					<p>Takeaway</p>
+				</div>
+				<div class="col-4 col-last">
+					<input type="checkbox" name="check1" value="Pick-up">
+					<p>Pick-up</p>
+				</div>
+			</div>
+			<div class="row order_checkbox delivery">
+				<div class="col-4 col">
+					<input type="checkbox" name="check1" value="Delivery">
+					<p>Delivery</p>
+				 </div>
+
+				<div class="col-4 col"></div>
+				<div class="col-4 col"> </div>
+			</div>
+		</div> 
+	</div> 
+	    <!-- ----------------Bottom Navigation ------------------- --> 
+		<div class="btm_nav">
+			<div class="row">
+				<div class="col col-3">
+					<a href="#">
+						<img src="Home.svg">
+						<p>Start</p>
+					</a>
+				</div>
+				<div class="col col-2 active">
+					<a href="#">
+						<img src="activeCart.svg">
+						<p>Cart</p>
+					</a>
+				</div>
+				<div class="col col-2">
+					<a href="#">
+						<img src="Arrow-Next.svg" class="center_icon img-responsive" width="45px" height="45px">
+						<p>PAY</p>
+					</a>
+				</div>
+				<div class="col col-2">
+					<a href="#">
+						<img src="Notification.svg">
+						<p>Notification</p>
+					</a>
+				</div>
+				<div class="col col-3">
+					<a href="#">
+						<img src="account.svg">
+						<p>Account</p>
+					</a>
+				</div> 
+			</div> 
+		</div>
+		<!-- ---------------Bottom Navigation End----------------- -->
+
+</body>
+</html>

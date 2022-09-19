@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html{
+    background-color: white;
+}
+body {
+    background-color: black !important; 
+    margin: auto;
+    font-family: 'Poppins';
+    max-width: 375px;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.payment_page1{
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 90vh;
+    padding: 30px 20px 100px 20px;
+}
+.payment_page1 .top .col1{
+    text-align: left;
+    margin-top: 2px;
+}
+.payment_page1 .top .col2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 27px;
+    }
+.payment_page1 .top .col3{
+    text-align: right;
+    margin-top: 2px;
+}
+        
+.text1{
+    margin-top: 10px;
+} 
+/*------------Checkbox----------------*/
+.order_summary .heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #F5F5F7;
+    text-align: left;
+}
+/*-----------CheckBox End---------------------*/
+/*--------------Order Items-------------------*/
+.order_item{
+    margin:0px;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+.order_item .left{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+}
+.order_item .logo{
+    margin-right: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+}
+.order_item .name{
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #F5F5F7;
+    text-align: left;
+} 
+.order_item .price_col{
+    padding: 8px 0px 0px 0px;
+    margin: 0px;
+    text-align: right;
+}
+.order_item .price{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #F5F5F7;
+    margin-top: 15px;
+} 
+/*---------Plus - Minus--------------------------*/
+.price {
+    margin-top: 16px;
+}
+.price p.plus_minus{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #171717;
+    display: inline-block;
+    padding: 5px 0px;
+    margin: -5px 0px 0px 0px;
+    border-radius: 10px;
+}
+.price .plus_minus .center{
+    margin: 0px 14px 0px 16px ;
+    text-align: center;
+}
+.price .plus_minus .minus{
+    margin: 0px;
+    padding: 0px 3px 0px 8px;
+    color: #000;
+    background-color: #A2A2A6;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.price .plus_minus .plus{
+    margin: 0px;
+    padding: 0px 6px;
+    color: #000;
+    background-color: #C6C6C7;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+/*---------------------------------*/
+.order_details .total{
+    padding-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.total .left{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #F5F5F7;
+    margin: 0px 50px 0px 0px;
+}
+.total .right{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 0px;
+    color: #F5F5F7;
+}
+.payment_page1 hr{
+    border-top: 1px solid #454547;
+    margin: 5px 0px;
+}
+/*----------Order Options - checkbox-------------------*/
+.order_option{
+    margin-top: 10px;
+}
+.order_option .heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #F5F5F7;
+    text-align: left;
+}
+.order_checkbox{
+    display: flex;
+    margin: 0px; 
+
+}
+.order_checkbox .col{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.order_checkbox  .col-last{
+    display: flex;
+    justify-content: flex-end;
+    padding:0px;
+}
+.order_checkbox input[type=checkbox]{
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #86868B;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order_checkbox input[type=checkbox]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    content: "\f00c";
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    color: #fff; 
+    display: none;
+}
+.order_checkbox input[type=checkbox]:checked:after{
+    display: block;
+}
+.order_checkbox input[type=checkbox]:checked{
+    background-color: #04AF53 !important;
+    border-color: #04AF53;
+} 
+.order_checkbox p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #F5F5F7;
+    padding-left: 6px;
+    margin-bottom: 10px; 
+} 
+/*----------------------------------------------------------*/
+/*----------Payment Types - Seperate Page-------------------*/
+/*----------------------------------------------------------*/
+/*---------Saved Cards Option-------------------------------*/
+.saved_card{ 
+    margin: 40px 0px 0px 0px;
+}
+.saved_card .checkbox{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+} 
+.saved_card .cards{
+    background-color: #141416;
+    border-radius: 8px;
+    margin-left: 0px;
+    padding: 12px;
+}
+.saved_card .cards .heading {
+    margin: 0px;
+    padding: 0px;
+}
+.saved_card .cards .heading .col-6{
+    padding: 0px;
+}
+.saved_card .cards .heading p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F5F5F7;
+    padding-bottom: 5px;
+}
+.saved_card .cards .heading img{
+    float: right;
+}
+.Card_option{
+    cursor:pointer;
+    margin: 0px;
+}
+.Card_option .col-2,.Card_option .col-8{
+    padding: 0px;
+}   
+.Card_option .number{
+    font-size: 14;
+    font-weight: 500;
+    color: #F5F5F7;
+    margin: 0px;
+}
+.Card_option .name{
+    font-size: 13;
+    font-weight: 400;
+    color: #A1A1A6;
+    margin: 0px;
+}
+.Card_option .cross{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cards hr{
+    border-bottom: 1px solid #3B3B3D;
+    margin: 12px 0px;
+
+}
+/*-------------Checkbox-------------------*/ 
+.checkbox input[type=checkbox]{
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #86868B;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox input[type=checkbox]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    content: "\f00c";
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    color: #fff; 
+    display: none;
+}
+.checkbox input[type=checkbox]:checked:after{
+    display: block;
+}
+.checkbox input[type=checkbox]:checked{
+    background-color: #04AF53 !important;
+    border-color: #04AF53;
+}
+/*-----------------Payment Types-----------------*/
+.payment_option .heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #F5F5F7;
+    text-align: left;
+    margin-top: 40px;
+}
+.option{
+    background-color: #1D1D1F;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    cursor:pointer;
+}       
+.option .left{
+    display: flex;
+    padding: 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.option .left p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F5F7; 
+    margin: 0px 0px 0px 15px;
+    display: flex;
+    vertical-align: middle;
+}
+.option .right{           
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+/*---------Bottom Navigation-----------*/
+.btm_nav{
+    position:fixed;
+    bottom: 0;
+    max-width: 375px;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+    margin: 0px;
+    padding: 20px 0px 0px;
+}
+.btm_nav .row{
+    background-color: #1D1D1F;
+    padding-top: 10px;
+}
+.btm_nav p{
+    margin-top: 8px;
+    color: #F5F5F7F0;
+    font-size: 10px;
+    font-weight: 400;
+}
+.btm_nav .active p{
+    color: #FFF600;
+}
+.btm_nav .col{
+    text-align: center !important;
+    padding: 0px;
+}
+.btm_nav .col .center_icon{
+    background-color: #FFF600;
+    padding: 11px;
+    border-radius: 30px;
+    margin-top: -25px; 
+}
